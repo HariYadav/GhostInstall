@@ -9,7 +9,7 @@ services:
       - todo_net
     volumes:
       - type: volume
-        source: /var/lib/ghost/content
+        source: dbdata
         target: /data/ghost/content
     environment: 
       - name=SpringreBoot
