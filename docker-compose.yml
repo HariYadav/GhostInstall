@@ -18,4 +18,5 @@ networks:
   todo_net:
 
 volumes:
-  dbdata: /opt/ghost/content
+  dbdata: 
+    - /opt/ghost/content:/data/ghost/content
