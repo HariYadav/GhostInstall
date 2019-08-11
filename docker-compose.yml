@@ -13,7 +13,7 @@ services:
         target: /data/ghost/content
     environment: 
       - name=SpringreBoot
-      - url=https://springreboot.com/
+      - url=http://localhost
 networks:
   todo_net:
 
