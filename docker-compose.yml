@@ -10,7 +10,7 @@ services:
     volumes:
       - type: volume
         source: dbdata
-        target: /data/ghost/content
+        target: /var/lib/ghost/content
     environment: 
       - name=SpringreBoot
       - url=http://localhost
@@ -18,5 +18,4 @@ networks:
   todo_net:
 
 volumes:
-  dbdata: 
-    - /opt/ghost/content:/data/ghost/content
+  dbdata:
