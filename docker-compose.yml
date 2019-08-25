@@ -13,7 +13,7 @@ services:
         target: /var/lib/ghost/content
     environment: 
       - name=SpringreBoot
-      - url=http://localhost
+      - url=http://springreboot.com
 networks:
   todo_net:
 
